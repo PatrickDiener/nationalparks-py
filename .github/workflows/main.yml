@@ -11,7 +11,7 @@ env:
 
   OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
   OPENSHIFT_TOKEN: ${{ secrets.OPENSHIFT_TOKEN }}
-  OPENSHIFT_NAMESPACE: "paddeebis-dev"
+  OPENSHIFT_NAMESPACE: "patdeebis-dev"
 
   APP_PORT: "8080"
 
