@@ -47,7 +47,7 @@ api.add_resource(HealthCheck, '/ws/healthz/')
 class Info(Resource):
     description = {
         'id': 'nationalparks-py',
-        'displayName': 'AMAZING National Parks (PY)',
+        'displayName': 'AMAZING GitHub Action National Parks (PY)',
         'type': 'cluster',
         'center': {'latitude': '47.039304', 'longitude': '14.505178'},
         'zoom': 4
@@ -133,4 +133,4 @@ api.add_resource(DataWithin, '/ws/data/within')
 
 @application.route('/')
 def index():
-    return 'Welcome to the AMAZING National Parks data service.'
+    return 'Welcome to the AMAZING GitHub Action National Parks data service.'
